@@ -1,0 +1,9 @@
+C:\Users\ZIA\source\repos\Passport\Clean.Common\bin\Release\netcoreapp3.1\Clean.Common.deps.json
+C:\Users\ZIA\source\repos\Passport\Clean.Common\bin\Release\netcoreapp3.1\Clean.Common.dll
+C:\Users\ZIA\source\repos\Passport\Clean.Common\bin\Release\netcoreapp3.1\Clean.Common.pdb
+C:\Users\ZIA\source\repos\Passport\Clean.Common\obj\Release\netcoreapp3.1\Clean.Common.csprojAssemblyReference.cache
+C:\Users\ZIA\source\repos\Passport\Clean.Common\obj\Release\netcoreapp3.1\Clean.Common.csproj.CoreCompileInputs.cache
+C:\Users\ZIA\source\repos\Passport\Clean.Common\obj\Release\netcoreapp3.1\Clean.Common.AssemblyInfoInputs.cache
+C:\Users\ZIA\source\repos\Passport\Clean.Common\obj\Release\netcoreapp3.1\Clean.Common.AssemblyInfo.cs
+C:\Users\ZIA\source\repos\Passport\Clean.Common\obj\Release\netcoreapp3.1\Clean.Common.dll
+C:\Users\ZIA\source\repos\Passport\Clean.Common\obj\Release\netcoreapp3.1\Clean.Common.pdb

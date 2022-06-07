@@ -1,0 +1,100 @@
+C:\Users\ZIA\source\repos\Passport\Clean.Application\bin\Debug\netcoreapp3.1\Clean.Application.deps.json
+C:\Users\ZIA\source\repos\Passport\Clean.Application\bin\Debug\netcoreapp3.1\Clean.Application.dll
+C:\Users\ZIA\source\repos\Passport\Clean.Application\obj\Debug\netcoreapp3.1\Clean.Application.csprojAssemblyReference.cache
+C:\Users\ZIA\source\repos\Passport\Clean.Application\obj\Debug\netcoreapp3.1\Clean.Application.AssemblyInfoInputs.cache
+C:\Users\ZIA\source\repos\Passport\Clean.Application\obj\Debug\netcoreapp3.1\Clean.Application.AssemblyInfo.cs
+C:\Users\ZIA\source\repos\Passport\Clean.Application\bin\Debug\netcoreapp3.1\Clean.Application.pdb
+C:\Users\ZIA\source\repos\Passport\Clean.Application\bin\Debug\netcoreapp3.1\Clean.Common.dll
+C:\Users\ZIA\source\repos\Passport\Clean.Application\bin\Debug\netcoreapp3.1\Clean.Domain.dll
+C:\Users\ZIA\source\repos\Passport\Clean.Application\bin\Debug\netcoreapp3.1\Clean.Persistence.dll
+C:\Users\ZIA\source\repos\Passport\Clean.Application\bin\Debug\netcoreapp3.1\Clean.Persistence.pdb
+C:\Users\ZIA\source\repos\Passport\Clean.Application\bin\Debug\netcoreapp3.1\Clean.Common.pdb
+C:\Users\ZIA\source\repos\Passport\Clean.Application\bin\Debug\netcoreapp3.1\Clean.Domain.pdb
+C:\Users\ZIA\source\repos\Passport\Clean.Application\obj\Debug\netcoreapp3.1\Clean.Application.csproj.CopyComplete
+C:\Users\ZIA\source\repos\Passport\Clean.Application\obj\Debug\netcoreapp3.1\Clean.Application.dll
+C:\Users\ZIA\source\repos\Passport\Clean.Application\obj\Debug\netcoreapp3.1\Clean.Application.pdb
+C:\Users\ZIA\source\repos\Passport\Clean.Application\obj\Debug\netcoreapp3.1\Clean.Application.csproj.CoreCompileInputs.cache
+C:\Users\ZIA\source\repos\Passport\Clean.Application\bin\Debug\netcoreapp3.1\App.Domain.dll
+C:\Users\ZIA\source\repos\Passport\Clean.Application\bin\Debug\netcoreapp3.1\App.Persistence.dll
+C:\Users\ZIA\source\repos\Passport\Clean.Application\bin\Debug\netcoreapp3.1\App.Persistence.pdb
+C:\Users\ZIA\source\repos\Passport\Clean.Application\bin\Debug\netcoreapp3.1\App.Domain.pdb
+C:\Users\Mohammad Ayub\Desktop\Passport\Clean.Application\bin\Debug\netcoreapp3.1\Clean.Application.deps.json
+C:\Users\Mohammad Ayub\Desktop\Passport\Clean.Application\bin\Debug\netcoreapp3.1\Clean.Application.dll
+C:\Users\Mohammad Ayub\Desktop\Passport\Clean.Application\bin\Debug\netcoreapp3.1\Clean.Application.pdb
+C:\Users\Mohammad Ayub\Desktop\Passport\Clean.Application\bin\Debug\netcoreapp3.1\App.Domain.dll
+C:\Users\Mohammad Ayub\Desktop\Passport\Clean.Application\bin\Debug\netcoreapp3.1\App.Persistence.dll
+C:\Users\Mohammad Ayub\Desktop\Passport\Clean.Application\bin\Debug\netcoreapp3.1\Clean.Common.dll
+C:\Users\Mohammad Ayub\Desktop\Passport\Clean.Application\bin\Debug\netcoreapp3.1\Clean.Domain.dll
+C:\Users\Mohammad Ayub\Desktop\Passport\Clean.Application\bin\Debug\netcoreapp3.1\Clean.Persistence.dll
+C:\Users\Mohammad Ayub\Desktop\Passport\Clean.Application\bin\Debug\netcoreapp3.1\App.Persistence.pdb
+C:\Users\Mohammad Ayub\Desktop\Passport\Clean.Application\bin\Debug\netcoreapp3.1\Clean.Persistence.pdb
+C:\Users\Mohammad Ayub\Desktop\Passport\Clean.Application\bin\Debug\netcoreapp3.1\App.Domain.pdb
+C:\Users\Mohammad Ayub\Desktop\Passport\Clean.Application\bin\Debug\netcoreapp3.1\Clean.Common.pdb
+C:\Users\Mohammad Ayub\Desktop\Passport\Clean.Application\bin\Debug\netcoreapp3.1\Clean.Domain.pdb
+C:\Users\Mohammad Ayub\Desktop\Passport\Clean.Application\obj\Debug\netcoreapp3.1\Clean.Application.csprojAssemblyReference.cache
+C:\Users\Mohammad Ayub\Desktop\Passport\Clean.Application\obj\Debug\netcoreapp3.1\Clean.Application.AssemblyInfoInputs.cache
+C:\Users\Mohammad Ayub\Desktop\Passport\Clean.Application\obj\Debug\netcoreapp3.1\Clean.Application.AssemblyInfo.cs
+C:\Users\Mohammad Ayub\Desktop\Passport\Clean.Application\obj\Debug\netcoreapp3.1\Clean.Application.csproj.CoreCompileInputs.cache
+C:\Users\Mohammad Ayub\Desktop\Passport\Clean.Application\obj\Debug\netcoreapp3.1\Clean.Application.csproj.CopyComplete
+C:\Users\Mohammad Ayub\Desktop\Passport\Clean.Application\obj\Debug\netcoreapp3.1\Clean.Application.dll
+C:\Users\Mohammad Ayub\Desktop\Passport\Clean.Application\obj\Debug\netcoreapp3.1\Clean.Application.pdb
+C:\Users\Mohammad Ayub\Desktop\MOE\Clean.Application\bin\Debug\netcoreapp3.1\Clean.Application.deps.json
+C:\Users\Mohammad Ayub\Desktop\MOE\Clean.Application\bin\Debug\netcoreapp3.1\Clean.Application.dll
+C:\Users\Mohammad Ayub\Desktop\MOE\Clean.Application\bin\Debug\netcoreapp3.1\Clean.Application.pdb
+C:\Users\Mohammad Ayub\Desktop\MOE\Clean.Application\bin\Debug\netcoreapp3.1\App.Domain.dll
+C:\Users\Mohammad Ayub\Desktop\MOE\Clean.Application\bin\Debug\netcoreapp3.1\App.Persistence.dll
+C:\Users\Mohammad Ayub\Desktop\MOE\Clean.Application\bin\Debug\netcoreapp3.1\Clean.Common.dll
+C:\Users\Mohammad Ayub\Desktop\MOE\Clean.Application\bin\Debug\netcoreapp3.1\Clean.Domain.dll
+C:\Users\Mohammad Ayub\Desktop\MOE\Clean.Application\bin\Debug\netcoreapp3.1\Clean.Persistence.dll
+C:\Users\Mohammad Ayub\Desktop\MOE\Clean.Application\bin\Debug\netcoreapp3.1\App.Persistence.pdb
+C:\Users\Mohammad Ayub\Desktop\MOE\Clean.Application\bin\Debug\netcoreapp3.1\Clean.Persistence.pdb
+C:\Users\Mohammad Ayub\Desktop\MOE\Clean.Application\bin\Debug\netcoreapp3.1\App.Domain.pdb
+C:\Users\Mohammad Ayub\Desktop\MOE\Clean.Application\bin\Debug\netcoreapp3.1\Clean.Common.pdb
+C:\Users\Mohammad Ayub\Desktop\MOE\Clean.Application\bin\Debug\netcoreapp3.1\Clean.Domain.pdb
+C:\Users\Mohammad Ayub\Desktop\MOE\Clean.Application\obj\Debug\netcoreapp3.1\Clean.Application.csprojAssemblyReference.cache
+C:\Users\Mohammad Ayub\Desktop\MOE\Clean.Application\obj\Debug\netcoreapp3.1\Clean.Application.AssemblyInfoInputs.cache
+C:\Users\Mohammad Ayub\Desktop\MOE\Clean.Application\obj\Debug\netcoreapp3.1\Clean.Application.AssemblyInfo.cs
+C:\Users\Mohammad Ayub\Desktop\MOE\Clean.Application\obj\Debug\netcoreapp3.1\Clean.Application.csproj.CoreCompileInputs.cache
+C:\Users\Mohammad Ayub\Desktop\MOE\Clean.Application\obj\Debug\netcoreapp3.1\Clean.Application.csproj.CopyComplete
+C:\Users\Mohammad Ayub\Desktop\MOE\Clean.Application\obj\Debug\netcoreapp3.1\Clean.Application.dll
+C:\Users\Mohammad Ayub\Desktop\MOE\Clean.Application\obj\Debug\netcoreapp3.1\Clean.Application.pdb
+D:\MOE Project\Empty Project\MOE\Clean.Application\bin\Debug\netcoreapp3.1\Clean.Application.deps.json
+D:\MOE Project\Empty Project\MOE\Clean.Application\bin\Debug\netcoreapp3.1\Clean.Application.dll
+D:\MOE Project\Empty Project\MOE\Clean.Application\bin\Debug\netcoreapp3.1\Clean.Application.pdb
+D:\MOE Project\Empty Project\MOE\Clean.Application\bin\Debug\netcoreapp3.1\App.Domain.dll
+D:\MOE Project\Empty Project\MOE\Clean.Application\bin\Debug\netcoreapp3.1\App.Persistence.dll
+D:\MOE Project\Empty Project\MOE\Clean.Application\bin\Debug\netcoreapp3.1\Clean.Common.dll
+D:\MOE Project\Empty Project\MOE\Clean.Application\bin\Debug\netcoreapp3.1\Clean.Domain.dll
+D:\MOE Project\Empty Project\MOE\Clean.Application\bin\Debug\netcoreapp3.1\Clean.Persistence.dll
+D:\MOE Project\Empty Project\MOE\Clean.Application\bin\Debug\netcoreapp3.1\App.Persistence.pdb
+D:\MOE Project\Empty Project\MOE\Clean.Application\bin\Debug\netcoreapp3.1\Clean.Persistence.pdb
+D:\MOE Project\Empty Project\MOE\Clean.Application\bin\Debug\netcoreapp3.1\App.Domain.pdb
+D:\MOE Project\Empty Project\MOE\Clean.Application\bin\Debug\netcoreapp3.1\Clean.Common.pdb
+D:\MOE Project\Empty Project\MOE\Clean.Application\bin\Debug\netcoreapp3.1\Clean.Domain.pdb
+D:\MOE Project\Empty Project\MOE\Clean.Application\obj\Debug\netcoreapp3.1\Clean.Application.csprojAssemblyReference.cache
+D:\MOE Project\Empty Project\MOE\Clean.Application\obj\Debug\netcoreapp3.1\Clean.Application.AssemblyInfoInputs.cache
+D:\MOE Project\Empty Project\MOE\Clean.Application\obj\Debug\netcoreapp3.1\Clean.Application.AssemblyInfo.cs
+D:\MOE Project\Empty Project\MOE\Clean.Application\obj\Debug\netcoreapp3.1\Clean.Application.csproj.CoreCompileInputs.cache
+D:\MOE Project\Empty Project\MOE\Clean.Application\obj\Debug\netcoreapp3.1\Clean.Application.csproj.CopyComplete
+D:\MOE Project\Empty Project\MOE\Clean.Application\obj\Debug\netcoreapp3.1\Clean.Application.dll
+D:\MOE Project\Empty Project\MOE\Clean.Application\obj\Debug\netcoreapp3.1\Clean.Application.pdb
+D:\ComplainTracking\MOE\Clean.Application\bin\Debug\netcoreapp3.1\Clean.Application.deps.json
+D:\ComplainTracking\MOE\Clean.Application\bin\Debug\netcoreapp3.1\Clean.Application.dll
+D:\ComplainTracking\MOE\Clean.Application\bin\Debug\netcoreapp3.1\Clean.Application.pdb
+D:\ComplainTracking\MOE\Clean.Application\bin\Debug\netcoreapp3.1\App.Domain.dll
+D:\ComplainTracking\MOE\Clean.Application\bin\Debug\netcoreapp3.1\App.Persistence.dll
+D:\ComplainTracking\MOE\Clean.Application\bin\Debug\netcoreapp3.1\Clean.Common.dll
+D:\ComplainTracking\MOE\Clean.Application\bin\Debug\netcoreapp3.1\Clean.Domain.dll
+D:\ComplainTracking\MOE\Clean.Application\bin\Debug\netcoreapp3.1\Clean.Persistence.dll
+D:\ComplainTracking\MOE\Clean.Application\bin\Debug\netcoreapp3.1\App.Persistence.pdb
+D:\ComplainTracking\MOE\Clean.Application\bin\Debug\netcoreapp3.1\Clean.Persistence.pdb
+D:\ComplainTracking\MOE\Clean.Application\bin\Debug\netcoreapp3.1\App.Domain.pdb
+D:\ComplainTracking\MOE\Clean.Application\bin\Debug\netcoreapp3.1\Clean.Common.pdb
+D:\ComplainTracking\MOE\Clean.Application\bin\Debug\netcoreapp3.1\Clean.Domain.pdb
+D:\ComplainTracking\MOE\Clean.Application\obj\Debug\netcoreapp3.1\Clean.Application.csprojAssemblyReference.cache
+D:\ComplainTracking\MOE\Clean.Application\obj\Debug\netcoreapp3.1\Clean.Application.AssemblyInfoInputs.cache
+D:\ComplainTracking\MOE\Clean.Application\obj\Debug\netcoreapp3.1\Clean.Application.AssemblyInfo.cs
+D:\ComplainTracking\MOE\Clean.Application\obj\Debug\netcoreapp3.1\Clean.Application.csproj.CoreCompileInputs.cache
+D:\ComplainTracking\MOE\Clean.Application\obj\Debug\netcoreapp3.1\Clean.Application.csproj.CopyComplete
+D:\ComplainTracking\MOE\Clean.Application\obj\Debug\netcoreapp3.1\Clean.Application.dll
+D:\ComplainTracking\MOE\Clean.Application\obj\Debug\netcoreapp3.1\Clean.Application.pdb

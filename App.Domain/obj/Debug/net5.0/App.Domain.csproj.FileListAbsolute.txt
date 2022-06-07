@@ -1,0 +1,15 @@
+D:\ComplainTracking\MOF\App.Domain\bin\Debug\net5.0\App.Domain.deps.json
+D:\ComplainTracking\MOF\App.Domain\bin\Debug\net5.0\App.Domain.dll
+D:\ComplainTracking\MOF\App.Domain\bin\Debug\net5.0\ref\App.Domain.dll
+D:\ComplainTracking\MOF\App.Domain\bin\Debug\net5.0\App.Domain.pdb
+D:\ComplainTracking\MOF\App.Domain\bin\Debug\net5.0\Clean.Domain.dll
+D:\ComplainTracking\MOF\App.Domain\bin\Debug\net5.0\Clean.Domain.pdb
+D:\ComplainTracking\MOF\App.Domain\obj\Debug\net5.0\App.Domain.csprojAssemblyReference.cache
+D:\ComplainTracking\MOF\App.Domain\obj\Debug\net5.0\App.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\ComplainTracking\MOF\App.Domain\obj\Debug\net5.0\App.Domain.AssemblyInfoInputs.cache
+D:\ComplainTracking\MOF\App.Domain\obj\Debug\net5.0\App.Domain.AssemblyInfo.cs
+D:\ComplainTracking\MOF\App.Domain\obj\Debug\net5.0\App.Domain.csproj.CoreCompileInputs.cache
+D:\ComplainTracking\MOF\App.Domain\obj\Debug\net5.0\App.Domain.csproj.CopyComplete
+D:\ComplainTracking\MOF\App.Domain\obj\Debug\net5.0\App.Domain.dll
+D:\ComplainTracking\MOF\App.Domain\obj\Debug\net5.0\ref\App.Domain.dll
+D:\ComplainTracking\MOF\App.Domain\obj\Debug\net5.0\App.Domain.pdb

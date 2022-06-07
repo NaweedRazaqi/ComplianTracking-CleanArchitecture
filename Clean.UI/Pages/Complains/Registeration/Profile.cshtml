@@ -1,0 +1,117 @@
+﻿
+@page "{handler?}"
+@model Clean.UI.Pages.Complains.Registeration.ProfileModel
+@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer _localizer
+@{
+    ViewData["Title"] = "Profile";
+}
+<div class="panel panel-flat">
+    @Html.AntiForgeryToken()
+    <div class="panel-heading">
+        <h1 class="panel-title">@_localizer[" جستجو متقاعد "]</h1>
+    </div>
+    <div class="panel-body" style="padding-bottom:5px;">
+        <form id="dv_Complains_Registeration_Profile" class="form main-form page-component" type="form" prefix="ux">
+            <fieldset class="content-group">
+                <legend class="text-bold">@_localizer["مشخصات شخص را وارد کنید"] </legend>
+                <div class="row">
+                    <div class="col-md-12">
+                            <div class="col-md-6 col-sm-12 col-xs-12 ">
+                                <div class="form-group has-feedback has-feedback-left">
+                                    <label class="text-bold">
+                                        @_localizer["کود متقاعد "]
+                                        <span class="text-danger">&nbsp;*</span>
+                                    </label>
+                                    <input id="uxcode" name="uxCode" type="text" class="form-control search" required />
+                                    <div class="form-control-feedback">
+                                        <i class="icon-search4 text-size-base"></i>
+                                    </div>
+                                </div>
+                            </div>    
+                        <div class="col-md-6 col-sm-12 col-xs-12 ">
+                                <div class="form-group has-feedback has-feedback-left">
+                                    <label class="text-bold">
+                                        @_localizer[" اکونت بانکی متقاعد "]
+                                        <span class="text-danger">&nbsp;*</span>
+                                    </label>
+                                    <input id="uxaccountnumber" name="uxAccountNumber" type="text" class="form-control search" required />
+                                    <div class="form-control-feedback">
+                                        <i class="icon-search4 text-size-base"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    <div class="col-md-12">
+                        <div class="col-md-4 col-sm-12 col-xs-12 ">
+                            <div class="form-group has-feedback has-feedback-left">
+                                <label class="text-bold">
+                                    @_localizer[" نام"]
+                                    <span class="text-danger">&nbsp;*</span>
+                                </label>
+                                <input id="uxfirstname" name="uxFirstName" type="text" class="form-control search" required lang="ps" />
+                                <div class="form-control-feedback">
+                                    <i class="icon-search4 text-size-base"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12 col-xs-12 ">
+                            <div class="form-group has-feedback has-feedback-left">
+                                <label class="text-bold">
+                                    @_localizer[" تخلص "]
+                                    <span class="text-danger">&nbsp;*</span>
+                                </label>
+                                <input id="uxlastname" name="uxLastName" type="text" class="form-control search"  lang="ps"/>
+                                <div class="form-control-feedback">
+                                    <i class="icon-search4 text-size-base"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12 col-xs-12 ">
+                            <div class="form-group has-feedback has-feedback-left">
+                                <label class="text-bold">
+                                    @_localizer["نام پدر "]
+                                    <span class="text-danger">&nbsp;*</span>
+                                </label>
+                                <input id="uxfathername" name="uxFatherName" type="text" class="form-control search"  lang="ps" />
+                                <div class="form-control-feedback">
+                                    <i class="icon-search4 text-size-base"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </fieldset>
+            <hr />
+            <div class="row div-form-control main-form-details">
+                <div class="col-md-12">
+                    <div class="form-group actions">
+                        <button type="button" class="btn btn-primary" action="search"><i class="icon-search4 position-left"></i>@_localizer["جستجو"] </button>
+                        <button type="button" class="btn btn-primary" action="new"><i class="icon-new-tab position-left"></i>@_localizer["صفحه جدید"]</button>
+                    </div>
+                </div>
+            </div>
+            <div class="form-grid main-form-details">
+                <table bindonclick="true">
+                    <thead>
+                        <tr>
+                            <th colname="FirstName">@_localizer["نام"]</th>
+                            <th colname="LastName">@_localizer["تخلص"]</th>
+                            <th colname="FatherName">@_localizer["نام پدر"]</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+
+        </form>
+    </div>
+    <div class="page-sidebar page-component" type="actionmenu">
+        <ul class="navigation navigation-accordion">
+            @Html.Raw(@Model.SubScreens)
+        </ul>
+    </div>
+</div>

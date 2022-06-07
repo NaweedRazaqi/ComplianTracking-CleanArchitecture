@@ -1,0 +1,12 @@
+D:\ComplainTracking\MOF\Clean.Domain\bin\Debug\net5.0\Clean.Domain.deps.json
+D:\ComplainTracking\MOF\Clean.Domain\bin\Debug\net5.0\Clean.Domain.dll
+D:\ComplainTracking\MOF\Clean.Domain\bin\Debug\net5.0\ref\Clean.Domain.dll
+D:\ComplainTracking\MOF\Clean.Domain\bin\Debug\net5.0\Clean.Domain.pdb
+D:\ComplainTracking\MOF\Clean.Domain\obj\Debug\net5.0\Clean.Domain.csprojAssemblyReference.cache
+D:\ComplainTracking\MOF\Clean.Domain\obj\Debug\net5.0\Clean.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\ComplainTracking\MOF\Clean.Domain\obj\Debug\net5.0\Clean.Domain.AssemblyInfoInputs.cache
+D:\ComplainTracking\MOF\Clean.Domain\obj\Debug\net5.0\Clean.Domain.AssemblyInfo.cs
+D:\ComplainTracking\MOF\Clean.Domain\obj\Debug\net5.0\Clean.Domain.csproj.CoreCompileInputs.cache
+D:\ComplainTracking\MOF\Clean.Domain\obj\Debug\net5.0\Clean.Domain.dll
+D:\ComplainTracking\MOF\Clean.Domain\obj\Debug\net5.0\ref\Clean.Domain.dll
+D:\ComplainTracking\MOF\Clean.Domain\obj\Debug\net5.0\Clean.Domain.pdb

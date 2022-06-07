@@ -1,0 +1,125 @@
+﻿
+@page "{handler?}"
+@model Clean.UI.Pages.Complains.Report.ProcessTrackingReportModel 
+@{
+    ViewData["Title"] = "Profile";
+    Layout = "~/Pages/Shared/_CustomLayout.cshtml";
+}
+@Html.AntiForgeryToken()
+@{
+
+}
+<style>
+    .table > thead > tr >th{
+        text-align: right
+    }
+</style>
+<div class="panel panel-flat" dir="rtl">
+    <div class="panel-heading">
+        <h1 class="panel-title">گزارش   </h1>
+    </div>
+
+    <div class="panel-body">
+        <form id="dv_Complains_Report_ProcessTrackingReport" class="form main-form page-component" type="form" prefix="ux">
+            <fieldset class="content-group">
+                <legend class="text-bold">
+                    گزارش از طی مراحل اسناد متقاعد
+                </legend>
+                <div class="row">
+                    <div class="col-md-12 pull-right">
+
+                        <div class="col-md-3 pull-right">
+                            <div class="form-group has-feedback has-feedback-left">
+                                <label class="text-bold">
+                                     کود متقاعد
+                                </label>
+                                <input type="text" id="uxcode" name="uxCode" class="form-control search" />
+                            </div>
+                        </div>
+                        <div class="col-md-3 pull-right">
+                            <div class="form-group has-feedback has-feedback-left">
+                                <label class="text-bold">
+                                    کود درخواستی
+                                </label>
+                                <input type="text" id="uxid" name="uxId" class="form-control search" />
+                            </div>
+                        </div>
+                        <div class="col-md-3 pull-right">
+                            <div class="form-group has-feedback has-feedback-left">
+                                <label class="text-bold">
+                                    اسم
+                                </label>
+                                <input type="text" id="uxname" name="uxName" class="form-control search" required />
+                            </div>
+                        </div>
+                        <div class="col-md-3 pull-right">
+                            <div class="form-group has-feedback has-feedback-left">
+                                <label class="text-bold">
+                                    ولد
+                                    <span class="text-danger">&nbsp;*</span>
+                                </label>
+                                <input type="text" id="uxfathername" name="uxFatherName" class="form-control search" required />
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </fieldset>
+            <hr />
+            <div class="row div-form-control main-form-details">
+                <div class="col-md-12">
+                    <div class="form-group actions">
+                        <button type="button" class="btn btn-primary" action="search"><i class="icon-search4 position-right"></i>جستجو </button>
+                        <button type="button" class="btn btn-primary" action="new"><i class="icon-new-tab position-right"></i>صفحه جدید </button>
+                    </div>
+                </div>
+            </div>
+            <div class="form-grid main-form-details">
+                <table style="direction: rtl; text-align: right" bindonclick="true"; >
+                    <thead>
+                        <tr>
+                            <th colname="code">کود</th>
+                            <th colname="name">نام</th>
+                            <th colname="lastname">تخلص</th>
+                            <th colname="fathername">نام پدر</th>
+                            <th colname="ComplainText">عنوان شکایت </th>
+                            <th colname="Discription">شرح  </th>
+
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+
+        </form>
+    </div>
+</div>
+
+
+<div class="panel panel-flat " style="direction: rtl; ">
+    <div class="panel-heading">
+        <h1 class="panel-title">طی مراحل اسناد</h1>
+    </div>
+    <div class="panel-body" style="padding-bottom:5px;">
+        <form id="dv_Complains_Report_ProcessTracking" grid="process" class="form sub-form page-component" type="form" prefix="uxpd" parent="dv_Complains_Report_ProcessTrackingReport" parentcol="RecordId">
+            <hr />
+            <div class="form-grid">
+                <table style="direction: rtl;">
+                    <thead>
+                        <tr>
+                            <th colname="ProcessText">مرحله</th>
+                            <th colname="ModuleText">بخش مربوطه</th>
+                            <th colname="StatusText">حالت</th>
+                            <th colname="DateText">تاریخ ثبت مرحله</th>
+                            <th colname="TimeText">زمان ثبت مرحله</th>
+                            <th colname="UserName">از کارمند</th>
+                            <th colname="ToUserName">به کارمند</th>
+                            <th colname="Remarks">ملاحظات</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </form>
+    </div>
+</div>

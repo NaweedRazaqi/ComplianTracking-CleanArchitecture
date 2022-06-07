@@ -1,0 +1,45 @@
+C:\Users\ZIA\source\repos\Passport\Clean.Domain\obj\Debug\netcoreapp3.1\Clean.Domain.csprojAssemblyReference.cache
+C:\Users\ZIA\source\repos\Passport\Clean.Domain\obj\Debug\netcoreapp3.1\Clean.Domain.AssemblyInfoInputs.cache
+C:\Users\ZIA\source\repos\Passport\Clean.Domain\obj\Debug\netcoreapp3.1\Clean.Domain.AssemblyInfo.cs
+C:\Users\ZIA\source\repos\Passport\Clean.Domain\bin\Debug\netcoreapp3.1\Clean.Domain.deps.json
+C:\Users\ZIA\source\repos\Passport\Clean.Domain\bin\Debug\netcoreapp3.1\Clean.Domain.dll
+C:\Users\ZIA\source\repos\Passport\Clean.Domain\bin\Debug\netcoreapp3.1\Clean.Domain.pdb
+C:\Users\ZIA\source\repos\Passport\Clean.Domain\obj\Debug\netcoreapp3.1\Clean.Domain.dll
+C:\Users\ZIA\source\repos\Passport\Clean.Domain\obj\Debug\netcoreapp3.1\Clean.Domain.pdb
+C:\Users\ZIA\source\repos\Passport\Clean.Domain\obj\Debug\netcoreapp3.1\Clean.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Mohammad Ayub\Desktop\Passport\Clean.Domain\bin\Debug\netcoreapp3.1\Clean.Domain.deps.json
+C:\Users\Mohammad Ayub\Desktop\Passport\Clean.Domain\bin\Debug\netcoreapp3.1\Clean.Domain.dll
+C:\Users\Mohammad Ayub\Desktop\Passport\Clean.Domain\bin\Debug\netcoreapp3.1\Clean.Domain.pdb
+C:\Users\Mohammad Ayub\Desktop\Passport\Clean.Domain\obj\Debug\netcoreapp3.1\Clean.Domain.csprojAssemblyReference.cache
+C:\Users\Mohammad Ayub\Desktop\Passport\Clean.Domain\obj\Debug\netcoreapp3.1\Clean.Domain.AssemblyInfoInputs.cache
+C:\Users\Mohammad Ayub\Desktop\Passport\Clean.Domain\obj\Debug\netcoreapp3.1\Clean.Domain.AssemblyInfo.cs
+C:\Users\Mohammad Ayub\Desktop\Passport\Clean.Domain\obj\Debug\netcoreapp3.1\Clean.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Mohammad Ayub\Desktop\Passport\Clean.Domain\obj\Debug\netcoreapp3.1\Clean.Domain.dll
+C:\Users\Mohammad Ayub\Desktop\Passport\Clean.Domain\obj\Debug\netcoreapp3.1\Clean.Domain.pdb
+C:\Users\Mohammad Ayub\Desktop\MOE\Clean.Domain\bin\Debug\netcoreapp3.1\Clean.Domain.deps.json
+C:\Users\Mohammad Ayub\Desktop\MOE\Clean.Domain\bin\Debug\netcoreapp3.1\Clean.Domain.dll
+C:\Users\Mohammad Ayub\Desktop\MOE\Clean.Domain\bin\Debug\netcoreapp3.1\Clean.Domain.pdb
+C:\Users\Mohammad Ayub\Desktop\MOE\Clean.Domain\obj\Debug\netcoreapp3.1\Clean.Domain.csprojAssemblyReference.cache
+C:\Users\Mohammad Ayub\Desktop\MOE\Clean.Domain\obj\Debug\netcoreapp3.1\Clean.Domain.AssemblyInfoInputs.cache
+C:\Users\Mohammad Ayub\Desktop\MOE\Clean.Domain\obj\Debug\netcoreapp3.1\Clean.Domain.AssemblyInfo.cs
+C:\Users\Mohammad Ayub\Desktop\MOE\Clean.Domain\obj\Debug\netcoreapp3.1\Clean.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Mohammad Ayub\Desktop\MOE\Clean.Domain\obj\Debug\netcoreapp3.1\Clean.Domain.dll
+C:\Users\Mohammad Ayub\Desktop\MOE\Clean.Domain\obj\Debug\netcoreapp3.1\Clean.Domain.pdb
+D:\MOE Project\Empty Project\MOE\Clean.Domain\bin\Debug\netcoreapp3.1\Clean.Domain.deps.json
+D:\MOE Project\Empty Project\MOE\Clean.Domain\bin\Debug\netcoreapp3.1\Clean.Domain.dll
+D:\MOE Project\Empty Project\MOE\Clean.Domain\bin\Debug\netcoreapp3.1\Clean.Domain.pdb
+D:\MOE Project\Empty Project\MOE\Clean.Domain\obj\Debug\netcoreapp3.1\Clean.Domain.csprojAssemblyReference.cache
+D:\MOE Project\Empty Project\MOE\Clean.Domain\obj\Debug\netcoreapp3.1\Clean.Domain.AssemblyInfoInputs.cache
+D:\MOE Project\Empty Project\MOE\Clean.Domain\obj\Debug\netcoreapp3.1\Clean.Domain.AssemblyInfo.cs
+D:\MOE Project\Empty Project\MOE\Clean.Domain\obj\Debug\netcoreapp3.1\Clean.Domain.csproj.CoreCompileInputs.cache
+D:\MOE Project\Empty Project\MOE\Clean.Domain\obj\Debug\netcoreapp3.1\Clean.Domain.dll
+D:\MOE Project\Empty Project\MOE\Clean.Domain\obj\Debug\netcoreapp3.1\Clean.Domain.pdb
+D:\ComplainTracking\MOE\Clean.Domain\bin\Debug\netcoreapp3.1\Clean.Domain.deps.json
+D:\ComplainTracking\MOE\Clean.Domain\bin\Debug\netcoreapp3.1\Clean.Domain.dll
+D:\ComplainTracking\MOE\Clean.Domain\bin\Debug\netcoreapp3.1\Clean.Domain.pdb
+D:\ComplainTracking\MOE\Clean.Domain\obj\Debug\netcoreapp3.1\Clean.Domain.csprojAssemblyReference.cache
+D:\ComplainTracking\MOE\Clean.Domain\obj\Debug\netcoreapp3.1\Clean.Domain.AssemblyInfoInputs.cache
+D:\ComplainTracking\MOE\Clean.Domain\obj\Debug\netcoreapp3.1\Clean.Domain.AssemblyInfo.cs
+D:\ComplainTracking\MOE\Clean.Domain\obj\Debug\netcoreapp3.1\Clean.Domain.csproj.CoreCompileInputs.cache
+D:\ComplainTracking\MOE\Clean.Domain\obj\Debug\netcoreapp3.1\Clean.Domain.dll
+D:\ComplainTracking\MOE\Clean.Domain\obj\Debug\netcoreapp3.1\Clean.Domain.pdb

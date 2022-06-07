@@ -1,0 +1,139 @@
+﻿
+@page "{handler?}/{id?}"
+@model Clean.UI.Pages.Complains.Registeration.ComplainsRegisterModel
+@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer _localizer
+@{
+    Layout = null;
+}
+<div class="panel panel-flat">
+    @Html.AntiForgeryToken()
+    <div class="panel-heading">
+        <h1 class="panel-title">@_localizer[" ثبت شکایات"]</h1>
+    </div>
+    <div class="panel-body" style="padding-bottom:5px;">
+        <form id="dv_Complains_Registeration_ComplainsRegister" class="form sub-form page-component" type="form" prefix="uxs" parent="dv_Complains_Registeration_Profile" parentcol="ProfileId" hasprocess="true">
+            <input id="uxapageid" type="hidden" static="true" asp-for="@Model.ScreenIDEncrypted" />
+            <fieldset class="content-group">
+                <legend class="text-bold">@_localizer["مشخصات شخص را وارد کنید"] </legend>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-12 col-xs-12 ">
+                                <div class="form-group">
+                                    <label class="text-bold">
+                                        @_localizer["عنوان درخواست"]
+                                        <span class="text-danger">&nbsp;*</span>
+                                    </label>
+                                    <select id="uxscomplaintypeid" name="uxsComplainTypeId" class="select" asp-items="@Model.ListOfComplainType" required>
+                                        <option></option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12 col-xs-12 ">
+                                <div class="form-group has-feedback has-feedback-left">
+                                    <label class="text-bold">
+                                        @_localizer[" نام درخواست  کننده"]
+                                        <span class="text-danger">&nbsp;*</span>
+                                    </label>
+                                    <input id="uxsname" name="uxsName" type="text" class="form-control search" lang="ps"/>
+                                    <div class="form-control-feedback">
+                                        <i class="icon-search4 text-size-base"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12 col-xs-12 ">
+                                <div class="form-group has-feedback has-feedback-left">
+                                    <label class="text-bold">
+                                        @_localizer[" نام پدر درخواست کننده"]
+                                        <span class="text-danger">&nbsp;*</span>
+                                    </label>
+                                    <input id="uxsfathername" name="uxsFatherName" type="text" class="form-control search"  lang="ps"/>
+                                    <div class="form-control-feedback">
+                                        <i class="icon-search4 text-size-base"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4 col-sm-12 col-xs-12 ">
+                                <div class="form-group has-feedback has-feedback-left">
+                                    <label class="text-bold">
+                                        @_localizer["تیلیفون"]
+                                        <span class="text-danger">&nbsp;*</span>
+                                    </label>
+                                    <input id="uxsphone" name="uxsPhone" type="text" class="form-control search"  />
+                                    <div class="form-control-feedback">
+                                        <i class="icon-search4 text-size-base"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12 col-xs-12 ">
+                                <div class="form-group has-feedback has-feedback-left">
+                                    <label class="text-bold">
+                                        @_localizer["آدرس مکمل"]
+                                        <span class="text-danger">&nbsp;*</span>
+                                    </label>
+                                    <input id="uxsaddress" name="uxsAddress" type="text" class="form-control search"  />
+                                    <div class="form-control-feedback">
+                                        <i class="icon-search4 text-size-base"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12 col-xs-12 ">
+                                <div class="form-group">
+                                    <label class="text-bold">
+                                        @_localizer["بخش مربوطه"]
+                                        <span class="text-danger">&nbsp;*</span>
+                                    </label>
+                                    <select id="uxsunitid" name="uxsUnitId" class="select" asp-items="@Model.ListOfUnits"required >
+                                        <option></option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12 col-xs-12 ">
+                                <div class="form-group has-feedback has-feedback-left">
+                                    <label class="text-bold">@_localizer["ملاحضات"] </label>
+                                    <textarea id="uxsdiscription" name="uxsDiscription" rows="2" cols="2" class="form-control remarks" required></textarea>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </fieldset>
+            <hr />
+            <div class="row div-form-control main-form-details">
+                <div class="col-md-12">
+                    <div class="form-group actions">
+                        <button type="button" class="btn btn-primary" action="save"><i class="icon-floppy-disk position-left"></i>@_localizer["ثبت معلومات"]</button>
+                        <button type="button" class="btn btn-primary" action="search"><i class="icon-search4 position-left"></i>@_localizer["جستجو"] </button>
+                        <button type="button" class="btn btn-primary" action="new"><i class="icon-new-tab position-left"></i>@_localizer["صفحه جدید"]</button>
+                        <button type="button" class="btn btn-primary" id="_print" action="print"><i class="icon-new-tab position-right"></i>@_localizer[" پرنت رسید"]</button>
+                    </div>
+                </div>
+            </div>
+            <div class="form-grid main-form-details">
+                <table bindonclick="true">
+                    <thead>
+                        <tr>
+                            <th colname="Name">@_localizer["نام درخواست کننده"]</th>
+                            <th colname="FatherName">@_localizer["نام پدر درخواست کننده"]</th>
+                            <th colname="Phone">@_localizer["شماره تماس"]</th>
+                            <th colname="CaseText">@_localizer[" درخوست"]</th>
+                            <th colname="UnitText">@_localizer["بخش مربوطه"]</th>
+                            <th colname="Discription">@_localizer["شرح درخواست"]</th>
+                            <th colname="StatusText">@_localizer["حالت"]</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+
+        </form>
+    </div>
+</div>

@@ -1,0 +1,234 @@
+﻿
+@page "{handler?}"
+@model Clean.UI.Pages.Complains.Report.ComplainProcessGeneralReportModel
+@{
+    ViewData["Title"] = "Profile";
+}
+@Html.AntiForgeryToken()
+
+<div class="panel panel-flat" dir="rtl">
+    <div class="panel-heading">
+        <h1 class="panel-title">گزارش   </h1>
+    </div>
+
+    <div class="panel-body">
+        <form id="dv_Complains_Report_ComplainProcessGeneralReport" class="form main-form page-component" type="form" prefix="uxs">
+            <fieldset class="content-group">
+                <legend class="text-bold">
+                    گزارش عمومی از مراحل شکایات
+                </legend>
+                <div class="row">
+
+                    <div class="col-md-6 col-sm-12 col-xs-12 ">
+                        <div class="form-group">
+                            <label class="text-bold">
+                                تاریخ آغاز شمسی
+                                <span class="text-danger">*</span>
+                            </label>
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="icon-calendar3"></i></span>
+                                <input type="text" id="uxsstartdateshamsi" name="uxsStartDateShamsi" class="form-control Shamsi" sibling="uxsstartdate" />
+                                <input type="hidden" id="uxsstartdate" name="uxsStartDate" class="form-control Miladi search" sibling="uxsstartdateshamsi" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12 col-xs-12 ">
+                        <div class="form-group">
+                            <label class="text-bold">
+                                تاریخ ختم
+                                <span class="text-danger">*</span>
+                            </label>
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="icon-calendar3"></i></span>
+                                <input type="text" id="uxsendateshamsi" name="uxsEndDateShamsi" class="form-control Shamsi search" sibling="uxsenddate" />
+                                <input type="hidden" id="uxsenddate" name="uxsEndDate" class="form-control Miladi search" sibling="uxsendateshamsi" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+            <hr />
+            <div class="row div-form-control main-form-details">
+                <div class="col-md-12">
+                    <div class="form-group actions">
+                        <button type="button" class="btn btn-primary" id="search"><i class="icon-search4 position-right"></i>جستجو </button>
+                        <button type="button" class="btn btn-primary" action="new"><i class="icon-new-tab position-right"></i>صفحه جدید </button>
+                    </div>
+                </div>
+            </div>
+            <div class="form-grid main-form-details">
+                <table style="direction: rtl; text-align: right" bindonclick="true" ;>
+                    <thead>
+                        <tr>
+                            <th colname="Id"> </th>
+                            <th colname="ComplainText">نوع شکایت</th>
+                            <th colname="complaintypecount"> تعداد مجموعی شکایات </th>
+                            <th colname="TotalProcessedComplainCount"> تعداد مجموعی شکایات پروسس شده </th>
+                            <th colname="TotalUnProcessedComplainCount"> تعداد مجموعی شکایات پروسس نشده </th>
+                            <th colname="TotalExpireComplainCount"> تعداد مجموعی شکایات تاریخ تیر شده </th>
+
+                        </tr>
+                    </thead>
+                    <tbody id="uxgeneralcomplainTbody"></tbody>
+                </table>
+            </div>
+
+        </form>
+    </div>
+</div>
+
+<div class="panel panel-flat " style="direction: rtl; ">
+    <div class="panel-heading">
+        <h1 class="panel-title">راپور مراحل اسناد</h1>
+    </div>
+    <div class="panel-body" style="padding-bottom:5px;">
+        <form id="dv_Complains_Report_CPGReport" grid="process" class="form sub-form page-component" type="form" prefix="uxpd">
+            <hr />
+            <div class="form-grid">
+                <table style="direction: rtl;" id="processdetails">
+                    <thead>
+                        <tr>
+                            <th colname="Id"></th>
+                            <th colname="ProcessText">مراحل شکایت</th>
+                            <th colname="ProcessedCount"> تعداد شکایت های پروسس شده</th>
+                            <th colname="InProcessCount">تعداد شکایت های در حال پروسس</th>
+                        </tr>
+                    </thead>
+                    <tbody id="uxComProcessDetails"></tbody>
+                </table>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+<div id="modal" class="modal fade">
+
+    <div class="modal-dialog modal-lg modal-width">
+        <div class="modal-content">
+
+            <div class="panel-body">
+                <div class="">
+                    <table class="table table-bordered" style="direction: rtl;" id="processdetails">
+                        <thead>
+                            <tr>
+                                <th colname="ComplainText">نام شکایت</th>
+                                <th colname="Name">نام متقاعد</th>
+                                <th colname="FatherName">نام پدر متقاعد</th>
+                                <th colname="LastName">تخلص متقاعد</th>
+                                <th colname="CreatedOnShamsi"> تاریخ ثبت شکایت</th>
+                                <th colname="ProcessedCount"> شکایت پروسس شده </th>
+                                <th colname="InProcessCount"> شکایت در حال پروسس</th>
+                            </tr>
+                        </thead>
+                        <tbody id="detailtablebody"></tbody>
+                    </table>
+                </div>
+                <br />
+                <button type="button" class="btn btn-link close-bttn" data-dismiss="modal"><i class="icon-close2 position-right"></i>بستن</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section PageScripts{
+    <script>
+        function showdetail(e) {
+            $(e).siblings().removeClass('row-selected');
+            $(e).addClass('row-selected');
+            let path = '/Complains/Report/CPGReport/Search';
+            let data = {};
+            data.ComplainTypeId = $(e).attr('data');
+                clean.data.post({
+                    async: false, url: path, data: clean.data.json.write(data), datatype: 'json',
+                    success: function (result) {
+                        if (result.status > 0) {
+                            var res = result.data.list;
+                            var html = "";
+                            for (var i = 0; i < res.length; i++) {
+                                var row = "<tr onclick='showcomplaindetails(this)' data='" + res[i].id + "'>";
+                                row += ("<td>" + res[i].id + "</td><td>" + res[i].processText + "</td><td>" + res[i].processedCount + "</td><td>" + res[i].inProcessCount + "</td>"
+                                );
+                                html += row;
+                            }
+                            $("#uxComProcessDetails").html(html);
+                        }
+                        else {
+                            clean.widget.warn(result.text, result.description);
+                        }
+                    }
+                });
+            
+        }
+
+         
+        $('#search').on('click', function () {
+            let path = '/Complains/Report/ComplainProcessGeneralReport/search';
+            let data = {};
+            data.StartDate = $('#uxsstartdate').val();
+            data.EndDate = $('#uxsenddate').val();
+            if ($('#dv_Complains_Report_ComplainProcessGeneralReport').valid()) {
+                clean.data.post({
+                    async: false, url: path, data: clean.data.json.write(data), datatype: 'json',
+                    success: function (result) {
+                        if (result.status > 0) {
+                            var res = result.data.list;
+                            var html = "";
+                            for (var i = 0; i < res.length; i++) {
+                                var row = "<tr onclick='showdetail(this)' data='" + res[i].id + "'>";
+                                row += ("<td>" + res[i].id + "</td><td>" + res[i].complainText + "</td><td>" + res[i].complaintypecount + "</td><td>" + res[i].totalProcessedComplainCount + "</td>" +
+                                    "</td><td>" + res[i].totalUnProcessedComplainCount + "</td>" +
+                                    "</td><td>" + res[i].totalExpireComplainCount + "</td>"
+
+                                );
+                                html += row;
+                            }
+                            $("#uxgeneralcomplainTbody").html(html);
+                        }
+                        else {
+                            clean.widget.warn(result.text, result.description);
+                        }
+                    }
+                });
+
+            }
+            else {
+                clean.widget.warn('کوشش خلاف اصول', 'لطفاً بخش های اجباری را درج نمائید.')
+            }
+        });
+
+
+        function showcomplaindetails(e) {
+            $(e).siblings().removeClass('row-selected');
+            $(e).addClass('row-selected');
+            let path = '/Complains/Report/DiffComplain/Search';
+            let data = {};
+            data.detailrequest = true;
+            data.ProcessId = $(e).attr('data');
+            debugger;
+            clean.data.post({
+                async: false, url: path, data: clean.data.json.write(data), datatype: 'json',
+                success: function (result) {
+                    if (result.status > 0) {
+                        var res = result.data.list;
+                        var html = "";
+                        for (var i = 0; i < res.length; i++) {
+                            var row = "<tr data='" + res[i].id + "'>";
+                            row += ("<td>" + res[i].complainText + "</td><td>" + res[i].name + "</td><td>" + res[i].fatherName + "</td><td>" + res[i].lastName + "</td>"
+                                + "</td><td>" + res[i].createdOnShamsi + "</td>" + "</td><td>" + res[i].processedCount + "</td>"
+                                + "</td><td>" + res[i].inProcessCount + "</td>"
+                            );
+                            html += row;
+                        }
+                        $("#detailtablebody").html(html);
+                        //clean.widget.success(result.text, result.description);
+                        $('#modal').modal();
+                    }
+                    else {
+                        clean.widget.warn(result.text, result.description);
+                    }
+                }
+            });
+        }
+    </script>
+}

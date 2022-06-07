@@ -1,0 +1,12 @@
+C:\Users\ZIA\source\repos\Passport\App.Domain\bin\Release\netcoreapp3.1\App.Domain.deps.json
+C:\Users\ZIA\source\repos\Passport\App.Domain\bin\Release\netcoreapp3.1\App.Domain.dll
+C:\Users\ZIA\source\repos\Passport\App.Domain\bin\Release\netcoreapp3.1\App.Domain.pdb
+C:\Users\ZIA\source\repos\Passport\App.Domain\bin\Release\netcoreapp3.1\Clean.Domain.dll
+C:\Users\ZIA\source\repos\Passport\App.Domain\bin\Release\netcoreapp3.1\Clean.Domain.pdb
+C:\Users\ZIA\source\repos\Passport\App.Domain\obj\Release\netcoreapp3.1\App.Domain.csprojAssemblyReference.cache
+C:\Users\ZIA\source\repos\Passport\App.Domain\obj\Release\netcoreapp3.1\App.Domain.csproj.CoreCompileInputs.cache
+C:\Users\ZIA\source\repos\Passport\App.Domain\obj\Release\netcoreapp3.1\App.Domain.AssemblyInfoInputs.cache
+C:\Users\ZIA\source\repos\Passport\App.Domain\obj\Release\netcoreapp3.1\App.Domain.AssemblyInfo.cs
+C:\Users\ZIA\source\repos\Passport\App.Domain\obj\Release\netcoreapp3.1\App.Domain.csproj.CopyComplete
+C:\Users\ZIA\source\repos\Passport\App.Domain\obj\Release\netcoreapp3.1\App.Domain.dll
+C:\Users\ZIA\source\repos\Passport\App.Domain\obj\Release\netcoreapp3.1\App.Domain.pdb

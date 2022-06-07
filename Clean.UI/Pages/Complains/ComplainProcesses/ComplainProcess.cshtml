@@ -1,0 +1,101 @@
+﻿
+@page "{handler?}"
+@model Clean.UI.Pages.Complains.Processes.ComplainProcessModel
+@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer _localizer
+
+<div class="panel panel-flat">
+    @Html.AntiForgeryToken()
+    <div class="panel-heading">
+        <h1 class="panel-title">@_localizer[" طی مراحل شکایات "]</h1>
+    </div>
+    <div class="panel-body" style="padding-bottom:5px;">
+        <form id="dv_Complains_ComplainProcesses_ComplainProcess" class="form main-form page-component" type="form" prefix="uxs"  hasprocess="true">
+            <input id="uxapageid" type="hidden" static="true" asp-for="@Model.ScreenIDEncrypted" />
+            <fieldset class="content-group">
+                <legend class="text-bold">@_localizer["مشخصات شخص را وارد کنید"] </legend>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-md-3 col-sm-12 col-xs-12 ">
+                                <div class="form-group has-feedback has-feedback-left">
+                                    <label class="text-bold">
+                                        @_localizer["کود متقاعد "]
+                                        <span class="text-danger">&nbsp;*</span>
+                                    </label>
+                                    <input id="uxscode" name="uxsCode" type="text" class="form-control search" required />
+                                    <div class="form-control-feedback">
+                                        <i class="icon-search4 text-size-base"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-12 col-xs-12 ">
+                                <div class="form-group has-feedback has-feedback-left">
+                                    <label class="text-bold">
+                                        @_localizer["کود درخواستی "]
+                                        <span class="text-danger">&nbsp;*</span>
+                                    </label>
+                                    <input id="uxsid" name="uxsId" type="text" class="form-control search" required />
+                                    <div class="form-control-feedback">
+                                        <i class="icon-search4 text-size-base"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-12 col-xs-12 ">
+                                <div class="form-group has-feedback has-feedback-left">
+                                    <label class="text-bold">
+                                        @_localizer[" نام"]
+                                        <span class="text-danger">&nbsp;*</span>
+                                    </label>
+                                    <input id="uxsname" name="uxsName" type="text" class="form-control search" required />
+                                    <div class="form-control-feedback">
+                                        <i class="icon-search4 text-size-base"></i>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 col-sm-12 col-xs-12 ">
+                                <div class="form-group">
+                                    <label class="text-bold">
+                                        @_localizer["عنوان درخواست"]
+                                        <span class="text-danger">&nbsp;*</span>
+                                    </label>
+                                    <select id="uxscomplaintypeid" name="uxsComplainTypeId" class="select" asp-items="@Model.ListOfComplainType" required>
+                                        <option></option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </fieldset>
+            <hr />
+            <div class="row div-form-control main-form-details">
+                <div class="col-md-12">
+                    <div class="form-group actions">
+                        <button type="button" class="btn btn-primary" action="search"><i class="icon-search4 position-left"></i>@_localizer["جستجو"] </button>
+                        <button type="button" class="btn btn-primary" action="new"><i class="icon-new-tab position-left"></i>@_localizer["صفحه جدید"]</button>
+                    </div>
+                </div>
+            </div>
+            <div class="form-grid main-form-details">
+                <table bindonclick="true">
+                    <thead>
+                        <tr>
+                            <th colname="Id">@_localizer["کود "]</th>
+                            <th colname="Name">@_localizer["نام متقاعد"]</th>
+                            <th colname="FatherName">@_localizer["نام پدر متقاعد"]</th>
+                            <th colname="ComplainText">@_localizer["عنوان درخواست"]</th>
+                            @*<th colname="UnitText">@_localizer["بخش مربوطه"]</th>*@
+                            <th colname="Discription">@_localizer["شرح درخواست"]</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+
+        </form>
+    </div>
+</div>

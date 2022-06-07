@@ -1,0 +1,17 @@
+C:\Users\ZIA\source\repos\Passport\Clean.Persistence\bin\Release\netcoreapp3.1\Clean.Persistence.deps.json
+C:\Users\ZIA\source\repos\Passport\Clean.Persistence\bin\Release\netcoreapp3.1\Clean.Persistence.runtimeconfig.json
+C:\Users\ZIA\source\repos\Passport\Clean.Persistence\bin\Release\netcoreapp3.1\Clean.Persistence.runtimeconfig.dev.json
+C:\Users\ZIA\source\repos\Passport\Clean.Persistence\bin\Release\netcoreapp3.1\Clean.Persistence.dll
+C:\Users\ZIA\source\repos\Passport\Clean.Persistence\bin\Release\netcoreapp3.1\Clean.Persistence.pdb
+C:\Users\ZIA\source\repos\Passport\Clean.Persistence\bin\Release\netcoreapp3.1\Clean.Common.dll
+C:\Users\ZIA\source\repos\Passport\Clean.Persistence\bin\Release\netcoreapp3.1\Clean.Domain.dll
+C:\Users\ZIA\source\repos\Passport\Clean.Persistence\bin\Release\netcoreapp3.1\Clean.Common.pdb
+C:\Users\ZIA\source\repos\Passport\Clean.Persistence\bin\Release\netcoreapp3.1\Clean.Domain.pdb
+C:\Users\ZIA\source\repos\Passport\Clean.Persistence\obj\Release\netcoreapp3.1\Clean.Persistence.csprojAssemblyReference.cache
+C:\Users\ZIA\source\repos\Passport\Clean.Persistence\obj\Release\netcoreapp3.1\Clean.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\ZIA\source\repos\Passport\Clean.Persistence\obj\Release\netcoreapp3.1\Clean.Persistence.AssemblyInfoInputs.cache
+C:\Users\ZIA\source\repos\Passport\Clean.Persistence\obj\Release\netcoreapp3.1\Clean.Persistence.AssemblyInfo.cs
+C:\Users\ZIA\source\repos\Passport\Clean.Persistence\obj\Release\netcoreapp3.1\Clean.Persistence.csproj.CopyComplete
+C:\Users\ZIA\source\repos\Passport\Clean.Persistence\obj\Release\netcoreapp3.1\Clean.Persistence.dll
+C:\Users\ZIA\source\repos\Passport\Clean.Persistence\obj\Release\netcoreapp3.1\Clean.Persistence.pdb
+C:\Users\ZIA\source\repos\Passport\Clean.Persistence\obj\Release\netcoreapp3.1\Clean.Persistence.genruntimeconfig.cache
